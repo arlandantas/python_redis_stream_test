@@ -1,6 +1,11 @@
 ### Python Redis Stream Tests
 Test only project to study python redis stream connection.
 
+### Dependencies
+```bash
+$ pip install redis[hiredis]
+```
+
 ### How to test
 Start the consumer in one terminal: `python3 consumer.py`.
 
