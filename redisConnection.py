@@ -1,0 +1,4 @@
+import redis
+
+redisClient = redis.Redis(host='localhost', port=6379, db=0)
+STREAM_NAME = "pytest"
